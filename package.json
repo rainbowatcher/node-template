@@ -1,0 +1,20 @@
+{
+  "name": "node-template",
+  "version": "0.0.1",
+  "description": "A Node.Js Template",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "rainbowatcher <wwh33516@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.26.3",
+    "eslint": "^8.23.0",
+    "vitest": "^0.22.1"
+  }
+}
